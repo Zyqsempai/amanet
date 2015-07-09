@@ -1,0 +1,2 @@
+The Casual theme
+Installs the Casual theme
