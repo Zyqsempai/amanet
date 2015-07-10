@@ -1,0 +1,2 @@
+The Amanet theme
+Installs the Amanet theme

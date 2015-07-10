@@ -1,0 +1,54 @@
+body {
+    font-family: arial;
+    font-size: 14px;
+    color: #404040;
+    /* customize_background */background-color: #fff;/* customize_background */
+}
+body .container p, body section p,
+body .container h1, body section h1,
+body .container h2, body section h2,
+body .container h3, body section h3,
+body .container h4, body section h4,
+body .container h5, body section h5{
+    margin:15px 0px;
+}
+body .container p, body section p{
+    line-height: 180%;
+}
+body header .container p,
+body #footer .container p{
+    margin: 0px;
+}
+body header .container h1{
+    margin:0px;
+    font-size: 40px;
+}
+body .container a{
+    /* customize_links */ color:#C0372C; /* customize_links */
+}
+body .container h1, body section h1{
+    font-size: 30px;
+    /* customize_h1 */ color:#C0372C; /* customize_h1 */
+}
+body .container h2, body section h2{
+    font-size: 30px;
+    /* customize_h2 */ color:#C0372C; /* customize_h2 */
+}
+body .container h3, body section h3{
+    font-size: 20px;
+    /* customize_h3 */color:#C0372C;/* customize_h3 */
+}
+body .container h4, body section h4{
+    /* customize_h4 */color:#404040;/* customize_h4 */
+    font-size: 18px;
+    font-weight: bold;
+}
+.banner{
+    /* customize_banner */color:#404040;/* customize_banner */
+}
+.banner li{
+    font-size: 18px;
+}
+.prefoot{
+    /* customize_prefoot */color:#fff;/* customize_prefoot */
+}
