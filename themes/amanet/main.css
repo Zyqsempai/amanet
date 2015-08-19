@@ -135,7 +135,7 @@ section.banner {
     padding-bottom: 40px;
 }
 .prefoot{
-    background: #555555;
+    background: #6a0505;
 }
 .tridiv{
     padding: 10px 0px;
@@ -144,7 +144,7 @@ section.banner {
     min-height: 270px;
 }
 .prefoot .col-md-4:nth-child(2){
-    background: #777777;
+    background: #6a0505;
 }
 #footer .col-xs-6:last-child{
     text-align: right;
@@ -156,7 +156,7 @@ section.banner {
 }
 body .container .nav a, body section .nav a{
     color: #e0be6a;
-    /* customize_autonav-color */background-color: #484949;/* customize_autonav-color */
+    /* customize_autonav-color */background-color: #6a0505;/* customize_autonav-color */
     display: block;
     padding: 10px 15px;
     border-bottom: 1px solid #e0be6a;
@@ -294,7 +294,7 @@ body header .container #logo{
         background: none;
     }
     .prefoot .col-md-4{
-        border-bottom: 1px solid #aaa;
+        border-bottom: 1px solid #6a0505;
     }
     .containerbanner{
         width:300px;
