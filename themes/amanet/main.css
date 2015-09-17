@@ -24,6 +24,9 @@ body .container, body .container *, body section, body section *{
     padding: 14px 24px;
     font-size: 21px;
 }
+.r1{
+    z-index: 1;
+}
 .r1>img{
     display:none;
 }
@@ -31,6 +34,8 @@ body .container, body .container *, body section, body section *{
     cursor:pointer;
 }
 .r1:hover>img{
+    position: absolute;
+    z-index: 3;
     display:block;
 }
 
