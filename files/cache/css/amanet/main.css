@@ -8,6 +8,9 @@
 .container{
     max-width: 1140px;
 }
+body{
+    background-color: #6a0505;
+}
 body .container, body .container *, body section, body section *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -21,6 +24,21 @@ body .container, body .container *, body section, body section *{
     padding: 14px 24px;
     font-size: 21px;
 }
+.r1{
+    z-index: 1;
+}
+.r1>img{
+    display:none;
+}
+.r1:hover{
+    cursor:pointer;
+}
+.r1:hover>img{
+    position: absolute;
+    z-index: 3;
+    display:block;
+}
+
 /* Customize the nav-justified links to be fill the entire space of the .navbar */
 
 .masthead .nav{}
@@ -79,18 +97,17 @@ body .container, body .container *, body section, body section *{
 }
 #contactd span:first-child {
     font-size: 15px;
-    color: #4e4e4e;
+    color: #e0be6a;
     font-weight: bold;
 }
 #contactd span:last-child {
     font-size: 35px;
-    color: #C0372C;
+    color: #e0be6a;
     font-weight: bold;
     padding-left: 10px;
 }
 section.banner {
     border-bottom: #afafaf 5px solid;
-    background: #fff;
     border-top: #afafaf 5px solid;
     text-align: center;
 }
@@ -99,8 +116,8 @@ section.banner {
 }
 
 .btn-success {
-    background-color: #C0372C;
-    border-color: #C0372C;
+    background-color: #6a0505;
+    border-color: #6a0505;
     color: #fff;
 }
 .banner ul{
@@ -115,7 +132,7 @@ section.banner {
     position:relative;
 }
 .banner ul li span{
-    color:#C0372C;
+    color:#e0be6a;
     font-weight: bold;
     padding-right: 10px;
 }
@@ -133,7 +150,7 @@ section.banner {
     padding-bottom: 40px;
 }
 .prefoot{
-    background: #555555;
+    background: #6a0505;
 }
 .tridiv{
     padding: 10px 0px;
@@ -142,7 +159,7 @@ section.banner {
     min-height: 270px;
 }
 .prefoot .col-md-4:nth-child(2){
-    background: #777777;
+    background: #6a0505;
 }
 #footer .col-xs-6:last-child{
     text-align: right;
@@ -153,11 +170,11 @@ section.banner {
     background:#eee;
 }
 body .container .nav a, body section .nav a{
-    color: #fff;
-    /* customize_autonav-color */background-color: #484949;/* customize_autonav-color */
+    color: #e0be6a;
+    /* customize_autonav-color */background-color: #6a0505;/* customize_autonav-color */
     display: block;
     padding: 10px 15px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #e0be6a;
     position: relative;
 }
 body .container .nav li li a, body section .nav li li a{
@@ -173,9 +190,9 @@ body section .nav li li a.nav-selected,
 body section .nav li a.nav-selected,
 body section .nav a:hover
 {
-    /* customize_autonav-hover */background-color: #C0372C;/* customize_autonav-hover */
+    /* customize_autonav-hover */background-color: #6a0505;/* customize_autonav-hover */
     text-decoration: none;
-    color: #fff;
+    color: #e0be6a;
 }
 
 body .container .nav, body section .nav, body .container .nav ul, body section .nav ul{
@@ -184,19 +201,19 @@ body .container .nav, body section .nav, body .container .nav ul, body section .
     list-style: none;
 }
 .searchResult a{
-    color: #C0372C;
+    color: #e0be6a;
 }
 .ccm-tags-display{
     margin-bottom: 40px;
 }
 .ccm-tags-display ul.ccm-tag-list li{
-    color: #C0372C;
+    color: #e0be6a;
 }
 a{
-    color: #C0372C;
+    color: #e0be6a;
 }
 a:hover{
-    color: #C0372C;
+    color: #e0be6a;
     text-decoration: none;
 }
 .formBlockSurveyTable input[type="text"],
@@ -234,7 +251,7 @@ a:hover{
     text-indent:0;
     border:1px solid #dcdcdc;
     display:inline-block;
-    color:#777777;
+    color:#e0be6a;
     font-family:arial;
     font-size:12px;
     font-weight:bold;
@@ -292,7 +309,7 @@ body header .container #logo{
         background: none;
     }
     .prefoot .col-md-4{
-        border-bottom: 1px solid #aaa;
+        border-bottom: 1px solid #6a0505;
     }
     .containerbanner{
         width:300px;

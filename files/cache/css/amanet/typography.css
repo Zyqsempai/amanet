@@ -1,7 +1,7 @@
 body {
     font-family: arial;
     font-size: 14px;
-    color: #404040;
+    color: #e0be6a;
     /* customize_background */background-color: #fff;/* customize_background */
 }
 body .container p, body section p,
@@ -24,27 +24,27 @@ body header .container h1{
     font-size: 40px;
 }
 body .container a{
-    /* customize_links */ color:#C0372C; /* customize_links */
+    /* customize_links */ color:#e0be6a; /* customize_links */
 }
 body .container h1, body section h1{
     font-size: 30px;
-    /* customize_h1 */ color:#C0372C; /* customize_h1 */
+    /* customize_h1 */ color:#e0be6a; /* customize_h1 */
 }
 body .container h2, body section h2{
     font-size: 30px;
-    /* customize_h2 */ color:#C0372C; /* customize_h2 */
+    /* customize_h2 */ color:#e0be6a; /* customize_h2 */
 }
 body .container h3, body section h3{
     font-size: 20px;
-    /* customize_h3 */color:#C0372C;/* customize_h3 */
+    /* customize_h3 */color:#e0be6a;/* customize_h3 */
 }
 body .container h4, body section h4{
-    /* customize_h4 */color:#404040;/* customize_h4 */
+    /* customize_h4 */color:#e0be6a;/* customize_h4 */
     font-size: 18px;
     font-weight: bold;
 }
 .banner{
-    /* customize_banner */color:#404040;/* customize_banner */
+    /* customize_banner */color:#e0be6a;/* customize_banner */
 }
 .banner li{
     font-size: 18px;
